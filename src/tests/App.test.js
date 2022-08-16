@@ -1,7 +1,5 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-// import { Router } from 'react-router';
-// import { createMemoryHistory } from 'history';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from './renderWithRouter';
@@ -9,8 +7,6 @@ import renderWithRouter from './renderWithRouter';
 describe('Teste o componente <App.js />', () => {
   describe('Teste se o topo da aplicação contém um conjunto fixo de links de navegação:',
     () => {
-    // beforeEach(() => {
-    // });
       test('01.O primeiro link deve possuir o texto Home.', () => {
         renderWithRouter(<App />);
         const homeLink = screen
