@@ -3,7 +3,6 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from './renderWithRouter';
-// Commit
 
 describe('Teste o componente <App.js />', () => {
   describe('Teste se o topo da aplicação contém um conjunto fixo de links de navegação:',
