@@ -3,6 +3,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from './renderWithRouter';
+// COMMIT
 
 describe('Teste o componente <Pokemon.js />.', () => {
   test('01.A imagem do pokemon possui o src e o alt <name> sprite correto.',
